@@ -36,9 +36,9 @@
         <children/>
     </event>
     <event name="AnimalBear">
-        <nominal>5</nominal>
-        <min>5</min>
-        <max>8</max>
+        <nominal>10</nominal>
+        <min>6</min>
+        <max>10</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -49,7 +49,7 @@
         <limit>custom</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="8" min="5" type="Animal_UrsusArctos"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_UrsusArctos"/>
         </children>
     </event>
     <event name="AnimalCow">
@@ -76,8 +76,8 @@
     </event>
     <event name="AnimalDeer">
         <nominal>20</nominal>
-        <min>6</min>
-        <max>9</max>
+        <min>12</min>
+        <max>20</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -114,8 +114,8 @@
     </event>
     <event name="AnimalPig">
         <nominal>20</nominal>
-        <min>5</min>
-        <max>8</max>
+        <min>10</min>
+        <max>20</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -131,8 +131,8 @@
     </event>
     <event name="AnimalRoeDeer">
         <nominal>20</nominal>
-        <min>5</min>
-        <max>9</max>
+        <min>10</min>
+        <max>20</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -183,9 +183,9 @@
         </children>
     </event>
     <event name="AnimalWolf">
-        <nominal>30</nominal>
-        <min>5</min>
-        <max>7</max>
+        <nominal>15</nominal>
+        <min>10</min>
+        <max>15</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -197,7 +197,7 @@
         <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="6" min="4" type="Animal_CanisLupus_Grey"/>
-            <child lootmax="0" lootmin="0" max="6" min="3" type="Animal_CanisLupus_White"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="Animal_CanisLupus_White"/>
         </children>
     </event>
     <event name="InfectedArmy">
